@@ -60,6 +60,9 @@ npm run hello:producer
 - How to declare a queue
 - How to send and receive a single message
 
+![Producer sent message](image-1.png)
+![Consumer received message](image.png)
+
 ---
 
 ### 📌 Lesson 2 — Work Queue (Task Distribution)
