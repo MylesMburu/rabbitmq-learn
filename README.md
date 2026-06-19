@@ -173,6 +173,11 @@ npm run routing:emit
 - Binding a queue to multiple routing keys
 - Selective message consumption
 
+![Emitter](image-8.png)
+
+![Error route receiver](image-9.png)
+
+![Info warning receiver](image-10.png)
 ---
 
 ## Key Concepts Summary
