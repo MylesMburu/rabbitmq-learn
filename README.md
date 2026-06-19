@@ -96,6 +96,12 @@ npm run work:sender
 - `prefetch(1)` — fair dispatch (don't overload a busy worker)
 - Message durability (survives RabbitMQ restarts)
 
+![Task sender](image-2.png)
+
+![First worker](image-3.png)
+
+![Second worker](image-4.png)
+
 ---
 
 ### 📌 Lesson 3 — Pub/Sub (Fanout Exchange)
