@@ -134,6 +134,12 @@ npm run pubsub:publish
 - Fanout exchange (broadcasts to all bound queues)
 - Temporary queues (auto-deleted when subscriber disconnects)
 
+![First subscriber](image-5.png)
+
+![Second subscriber](image-6.png)
+
+![Publisher](image-7.png)
+
 ---
 
 ### 📌 Lesson 4 — Routing (Direct Exchange)
