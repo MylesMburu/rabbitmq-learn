@@ -1,0 +1,18 @@
+{
+  "name": "rabbitmq-learn",
+  "version": "1.0.0",
+  "description": "A hands-on RabbitMQ learning project",
+  "scripts": {
+    "hello:producer": "node 01-hello-world/producer.js",
+    "hello:consumer": "node 01-hello-world/consumer.js",
+    "work:sender": "node 02-work-queue/task-sender.js",
+    "work:worker": "node 02-work-queue/worker.js",
+    "pubsub:publish": "node 03-pub-sub/publisher.js",
+    "pubsub:subscribe": "node 03-pub-sub/subscriber.js",
+    "routing:emit": "node 04-routing/emitter.js",
+    "routing:receive": "node 04-routing/receiver.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  }
+}
